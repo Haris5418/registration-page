@@ -1,0 +1,350 @@
+                        HTML CODE
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+
+</head>
+
+<body>
+<!-- <div class="reg">
+	<label>REGISTRATION</label>
+</div> -->
+<div id="rectangle"><br><br>
+
+
+	<!-- lable1 -->
+	<div class="personal">Personal Details</div>
+	<div class="l1">Name</div>
+
+		<!-- input1 -->
+		<input class="ip1"type="text">
+	<!-- lable2 -->	
+	<div class="l2">Mobile number</div>
+		<!-- input2 -->
+		<input class="ip2"type="text">
+	<!-- lable3 -->		
+	<div class="l3">Address</div>	
+		<!-- input3 -->
+		<input class="ip3"type="text">
+	<!-- lable4 -->	
+	<div class="l4">Aadhar Number</div>	
+		<!-- input4 -->
+		<input class="ip4"type="text">
+
+	<!-- lable5 -->	
+	<div class="l5">Marital status</div>
+	<!-- 	dropdown 1 -->
+       <select name = "dropdown"  class ="ip5" >
+            <option value = "Married" selected> Married </option>
+            <option value = "Single"> Single</option>
+        </select>
+
+    <!-- lable6 -->    
+	<div class="l6">Occupation</div>
+		<!-- 	dropdown 2 -->
+	
+		 <select name = "dropdown"  class ="ip6" >
+            <option value = "Business" selected> Business </option>
+            <option value = "Self Employee"> Self Employee</option>
+        </select>
+
+        <br><br>	
+
+
+	<div class="bank">Loan Details</div>
+
+	<div class="l1">Purpose of the loan</div>
+		<input class="ip1"type="text">
+
+	<div class="l2">Loan Amount</div>
+		<input class="ip2"type="text">
+
+	<div class="l3">Remarks</div>	
+		<input class="ip3"type="text">
+
+		<div class="l4">Date</div>	
+		<input class="ip4"type="text">	
+
+	<div class="l5">Other Documents</div>	
+		<input class="inputdoc"type="text">
+
+	<!-- submit button -->	
+	<div class="button1">
+	 <button type="button" class="btn btn-outline-success">Submit</button>
+	</div>
+
+	<!-- cancle button -->
+	<div class="button2">
+		<button type="button" class="btn btn-outline-danger">Cancle</button>
+	</div>
+</div>	
+
+</body>
+	
+</html>
+--------------------------------------------------------------------------------------------------------------------------
+                                      CSS CODE
+                                      
+
+.reg{
+/*  position: relative;*/ 
+  margin-top: 80px;
+  margin-bottom: -15px;
+  margin-right: 500px;
+  margin-left: 500px;
+  background-color : white;
+  text-align: center;
+  position: scroll;
+  background-color: white;
+  border-radius: 50px 50px 50px 50px;
+  height: 50px;
+  font-family: Segoe UI emoji;
+  font-size: 25px;
+
+}
+
+#rectangle{
+    position: relative;
+   height: 630px;
+   width: 1251px;
+   margin: 0px 50px;
+   background-color: white;
+   border-radius: 15px 15px 15px 15px;
+
+	color: black;
+	border:none;
+	border-radius: 20px;
+	box-shadow:0 5px 25px rgba(0,0,0,20);
+	-webkit-appearance:border;
+}
+
+body {
+  background-image: url("bg1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.register{
+	margin-top: 200px;
+	width: 57%;
+	height: 24%;
+	
+}
+
+.personal{
+	background-color: #D1D1D1;
+	background-position: center;
+	
+	font-family: sans-serif;
+	font-size: 18px;
+	color: #272424;
+
+	color: black;
+	border:none;
+	box-shadow:0 3px 15px rgba(0,0,0,.50);
+	-webkit-appearance:border;
+	
+}
+
+.l1{
+	font-family: segoe UI;
+	color: #707070;
+	margin-top: 50px;
+	margin-left: 85px;  
+	font-size: 18px;
+}
+.ip1{
+	color: #707070;
+	position: relative;
+	left: 250px;
+	top: -30px;
+	line-height: 20px;
+	padding: 0 22px;
+	
+
+	border-bottom: 1px solid #615D5D;
+	border-top: none;
+	border-right: none;
+	border-left:none;
+
+
+}
+.l2{
+	font-family: segoe UI;
+	color: #707070;
+	margin-top: 10px;
+	margin-left: 85px;  
+	font-size: 18px;
+}
+
+.ip2{
+	color: #707070;
+	position: relative;
+	left: 250px;
+	top: -35px;
+	line-height: 20px;
+	padding: 0 22px;
+	
+
+	border-bottom: 1px solid #615D5D;
+	border-top: none;
+	border-right: none;
+	border-left:none;
+
+}
+
+.l3{
+	font-family: segoe UI;
+	color: #707070;
+	margin-top: 10px;
+	margin-left: 85px;  
+	font-size: 18px;
+}
+
+.ip3{
+	color: #707070;
+	position: relative;
+	left: 250px;
+	top: -40px;
+	line-height: 20px;
+	padding: 0 22px;
+	
+
+	border-bottom: 1px solid #615D5D;
+	border-top: none;
+	border-right: none;
+	border-left:none;
+
+}
+
+.l4 {
+	font-family: segoe UI;
+	color: #707070;
+	margin-top: -173px;
+	margin-left: 55%;  
+	font-size: 18px;	
+}
+.ip4{
+	color: #707070;
+	position: relative;
+	left: 70%;
+	top: -33px;
+	line-height: 20px;
+	padding: 0 22px;
+	
+
+	border-bottom: 1px solid #615D5D;
+	border-top: none;
+	border-right: none;
+	border-left:none;
+
+
+
+}
+.l5 {
+	font-family: segoe UI;
+	color: #707070;
+	margin-top: 10px;
+	margin-left: 55%;  
+	font-size: 18px;	
+}
+.ip5{
+	color: #707070;
+	position: relative;
+	left: 70%;
+	top: -20px;
+	line-height: 20px;
+	padding: 0 22px;
+	
+
+		background: #D1D1D1;
+	color: black;
+	border:none;
+	border-radius: 20px;
+	box-shadow:0 5px 25px rgba(0,0,0,.75);
+	-webkit-appearance:border;
+
+
+}
+
+.inputdoc{
+	color: #707070;
+	position: relative;
+	left: 70%;
+	top: -20px;
+	line-height: 20px;
+	padding: 0 22px;
+	
+
+	border-bottom: 1px solid #615D5D;
+
+	border-top: none;
+	border-right: none;
+	border-left:none;
+
+
+
+}
+
+.l6 {
+	font-family: segoe UI;
+	color: #707070;
+	margin-top: 10px;
+	margin-left: 55%;  
+	font-size: 18px;	
+
+}
+.ip6{
+	color: #707070;
+	position: relative;
+	left: 70%;
+	top: -20px;
+	line-height: 20px;
+	padding: 0 22px;
+	
+
+		background: #D1D1D1;
+	color: black;
+	border:none;
+	border-radius: 20px;
+	box-shadow:0 5px 25px rgba(0,0,0,.75);
+	-webkit-appearance:border;
+
+
+}
+.bank{
+	background-color: #D1D1D1;
+	color: 272424;
+	background-position: center;
+	top:10%;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: #272424;
+
+	color: black;
+	border:none;
+	box-shadow:0 3px 15px rgba(0,0,0,.50);
+	-webkit-appearance:border;
+
+
+}
+.button1{
+	position: relative;
+	left: 70%;
+	top: 20px;
+	
+		
+}
+.button2{
+	position: relative;
+	left: 80%;
+	top: -16px;
+	}
+
+                                     
